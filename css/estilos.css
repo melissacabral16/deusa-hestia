@@ -1,0 +1,310 @@
+/* Global Styles */
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    background: linear-gradient(#0A234B, #091334, #011031);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    width: 900px;
+    font-size: 1.5em;
+}
+
+/* inicio tags*/
+h1 {
+    padding: 10px;
+    text-align: right;
+    margin: 30px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px solid #f23425;
+}
+
+/* Links */
+a:link {
+    font-size: 20px;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #091334;
+    text-decoration: underline;
+}
+
+ol {
+    text-align: justify;
+    font-size: 16px;
+}
+
+hr {
+    clear: both;
+    margin: 20px;
+}
+
+/* formulário */
+form {
+    padding: 10px;
+    margin: 10px;
+    clear: none;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="reset"],
+textarea {
+    background-color: #091334;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+/*fim tags*/
+
+/* Images */
+.img img {
+    border-radius: 30px;
+    float: right;
+    border: 5px solid #f23425;
+    margin: 10px;
+}
+
+/*inicio tipo da fonte*/
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+    margin-right: 30px;
+}
+
+.centro {
+    align-items: center;
+}
+/*fim inicio da fonte*/
+
+/*inicio produtos, listas e galeria*/
+.produtos {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.produtos img {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.produtos p {
+    margin-top: 50px;
+}
+
+.listas {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.listas img{
+    margin: 20px;
+    height: 270px;
+    width: 200px
+}
+
+.listas ol{
+    margin-top: 20px;
+}
+.margemlistas img{
+margin-top: 200px;
+}
+
+.margemposter img{
+    margin-top: 150px;
+}
+
+
+/*fim*/
+
+.margem {
+    margin-top: 90px;
+    margin-right: 20px;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+
+
+.explorar a:hover {
+    color: #f23425;
+}
+
+.explorar a:link{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+
+/*icons contato*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.icones img {
+    margin-bottom: 70px;
+    width: 64px;
+    height: 64px;
+}
+
+.minhafoto img{
+    padding-top: 70px;
+    padding-left: 50px;
+    border-radius: 5;
+    width:200px;
+    height: 202px;
+}
+
+.form-container {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Menu Styles */
+.containder-geral {
+    position: relative;
+    text-align: right;
+}
+
+.fundo {
+    background-image: url("../imagens/fundo.png");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+/*fim menu styles*/
+
+/*formulario align*/
+
+/*fim*/
+
+/* IDs */
+#corpo a:link {
+    font-size: 16px;
+}
+
+#rodape {
+    background-color: #f23425;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    clear: both;
+}
+
+/*id menu*/
+#menu {
+    background-color: #f23425;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+#menu a:link{
+    padding: 20px;
+    margin: 10px;
+}
+
+#menucontato {
+    background-color: #091334;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#menucontato a:hover {
+    color: #f23425;
+    text-decoration: underline;
+}
+
+#menucontato a:link{
+    padding: 20px;
+    margin: 10px;
+}
+/*fim id menu*/
+
+#fundocontato {
+    background-color: #f23425;
+}
+
+/*inicio do inicio das paginas*/
+#historia {
+    text-align: right;
+    padding-left: 20px;
+}
+
+#historia h1 {
+    font-size: 35px;
+}
+
+#galeria {
+    text-align: right;
+}
+
+#galeria h1 {
+    font-size: 40px;
+}
+
+#produtos {
+    text-align: right;
+}
+
+#produtos h1 {
+    font-size: 35px;
+}
+
+#funcontato {
+    background-color: #f23425;
+}
+/*fim inicio das paginas*/
